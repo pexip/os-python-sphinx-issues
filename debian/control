@@ -1,0 +1,25 @@
+Source: python-sphinx-issues
+Section: python
+Priority: optional
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper-compat (= 12),
+               dh-python,
+               python3-all,
+               python3-pytest,
+               python3-setuptools,
+               python3-sphinx,
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-sphinx-issues
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-sphinx-issues.git
+Homepage: https://github.com/sloria/sphinx-issues
+Testsuite: autopkgtest-pkg-python
+
+Package: python3-sphinx-issues
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends},
+Description: extension for linking to project's issue tracker
+ A Sphinx extension for linking to your project's issue tracker. Includes roles
+ for linking to issues, pull requests, user profiles, with built-in support for
+ GitHub (though this works with other services).

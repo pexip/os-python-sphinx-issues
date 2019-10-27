@@ -1,0 +1,11 @@
+python-sphinx-issues (1.2.0-2) unstable; urgency=medium
+
+  * Reuploading as source-only upload.
+
+ -- Ondřej Nový <onovy@debian.org>  Sun, 27 Oct 2019 20:41:35 +0100
+
+python-sphinx-issues (1.2.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #932141)
+
+ -- Ondřej Nový <onovy@debian.org>  Sun, 27 Oct 2019 16:55:19 +0100
